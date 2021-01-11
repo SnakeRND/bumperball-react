@@ -5,17 +5,17 @@
     "description":"100% БЕЗОПАСНО ДЛЯ ВЗРОСЛЫХ И ДЕТЕЙ!",
     "description2":"ОТЛИЧНЫЙ СПОСОБ ВЕСЕЛО И НЕОБЫЧНО\nОТМЕТИТЬ ДЕНЬ РОЖДЕНИЯ!",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"Бампербол — невероятно веселая, экстремальная, но абсолютно безопасная игра, одинаково подходящая как детям, так и взрослым! Участники одеты в надувные шары, закрывающие все тело, кроме ног. Сталкиваясь друг с другом, игроки разлетаются в разные стороны, падают и кувыркаются.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
     "github":"#",
     "project":"#",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"ул. Незнакомского",
+      "city":"г. Ярославль",
+      "state":"",
+      "zip": "150022"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
