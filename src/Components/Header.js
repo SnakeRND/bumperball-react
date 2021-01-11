@@ -8,7 +8,9 @@ class Header extends Component {
        var project = this.props.data.project;
        var github = this.props.data.github;
       var name = this.props.data.name;
+      var nameh2 = this.props.data.nameh2;
       var description= this.props.data.description;
+      var description2= this.props.data.description2;
       var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
@@ -23,23 +25,25 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            <li className="current"><a className="smoothscroll" href="#home">Главная</a></li>
+            <li><a className="smoothscroll" href="#about">О нас</a></li>
+	         <li><a className="smoothscroll" href="#resume">Подробнее</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Работы</a></li>
+            <li><a className="smoothscroll" href="#contact">Контакты</a></li>
          </ul>
       </nav>
 
       <div className="row banner">
       
          <div className="banner-text">
+            <h2 className="responsive-headline">{nameh2}</h2>
             <h1 className="responsive-headline">{name}</h1>
-            <h3>{description}.</h3>
+            <h3>{description}</h3>
+             <h3>{description2}</h3>
             <hr />
             <ul className="social">
-               <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Ссылка</a>
-               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Ссылка</a>
+               <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Заявка на игру</a>
+               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Купить сертификат</a>
             </ul>
          </div>
       </div>
