@@ -27,8 +27,7 @@ class Header extends Component {
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Главная</a></li>
             <li><a className="smoothscroll" href="#about">О нас</a></li>
-	         <li><a className="smoothscroll" href="#resume">Подробнее</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Работы</a></li>
+	         <li><a className="smoothscroll" href="#resume">Записаться</a></li>
             <li><a className="smoothscroll" href="#contact">Контакты</a></li>
          </ul>
       </nav>
@@ -42,7 +41,7 @@ class Header extends Component {
              <h3>{description2}</h3>
             <hr />
             <ul className="social">
-               <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Заявка на игру</a>
+               <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Заявка на игру&nbsp;&nbsp;&nbsp;&nbsp;</a>
                <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Купить сертификат</a>
             </ul>
          </div>
