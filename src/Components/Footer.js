@@ -15,7 +15,6 @@ class Footer extends Component {
      <div className="row">
         <div className="twelve columns">
 
-
            <ul className="copyright">
               <li>&copy; yarbamperball.ru</li>
               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
